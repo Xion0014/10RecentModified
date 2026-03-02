@@ -31,7 +31,7 @@ $TextBox.VerticalAlignment = "Center"
 [System.Windows.Controls.Grid]::SetRow($TextBox, 1)
 $Grid.Children.Add($TextBox)
 
-# TrendAR Folder Button
+# Trendar Folder Button
 $FolderButton = New-Object System.Windows.Controls.Button
 $FolderButton.Content = "Get Last 10 Modified Files"
 $FolderButton.Width = 300
@@ -52,7 +52,7 @@ $StatusBox.TextWrapping = "Wrap"
 [System.Windows.Controls.Grid]::SetRow($StatusBox, 3)
 $Grid.Children.Add($StatusBox)
 
-# TrendAR Button Click Event
+# Trendar Button Click Event
 $FolderButton.Add_Click({
 
     $inputStores = $TextBox.Text.Trim()
